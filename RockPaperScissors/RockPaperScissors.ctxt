@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=RockPaperScissors
+comment0.text=\n\ This\ class\ will\ allow\ the\ user\ to\ play\ Rock,\ Paper\ And\ Scissors.\n\ The\ user\ will\ be\ able\ to\ play\ as\ many\ games\ as\ he/she\ likes.\n\ They\ will\ be\ able\ to\ exit\ the\ program\ at\ any\ one\ point\ they\ like.\n\n\ @author\ Onorregaard\n\ @version\ 0.01\n
+comment1.params=
+comment1.target=RockPaperScissors()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ RockPaperScissors\n
+comment2.params=
+comment2.target=void\ chooseObject()
+comment2.text=\n\ This\ method\ allows\ the\ user\ to\ choose\ rock,\ paper\ or\ scissors.\n\ It\ will\ then\ store\ that\ value\ in\ an\ integer\ format\ to\ easily\n\ compare\ the\ results\ in\ getObject.\n\n\ Precondition\:\ any\n\ \n\ Postcondition\:\ the\ user\ will\ have\ chosen\ either\ rock,\ paper\ or\ \n\ scissors.\ If\ they\ choose\ to\ stop\ the\ program,\ the\ program\ will\ be\n\ terminated.\n\ \n
+comment3.params=
+comment3.target=void\ getResults()
+comment3.text=\n\ This\ method\ allows\ the\ program\ to\ compare\ the\ results\ from\n\ userIntInput\ and\ computerIntChoice.\ It\ will\ then\ print\ out\n\ the\ results\ and\ the\ current\ score.\n\ \n\ Precondition\:\ method\ chooseObject\ must've\ been\ called\ beforehand\n\ to\ allow\ user\ input.\ Method\ computerChooseObject\ must've\ been\ called\n\ beforehand\ to\ allow\ computer\ input.\n\ \n\ Postcondition\:\ the\ values\ from\ chooseObject\ and\ computerChooseObject\n\ will\ have\ been\ compared\ and\ a\ result\ will\ have\ been\ printed.\n\ It\ will\ also\ display\ the\ current\ score.\n
+comment4.params=
+comment4.target=void\ play()
+comment4.text=\n\ This\ is\ the\ main\ run\ method\ for\ the\ program.\ It\ will\ allow\n\ the\ user\ to\ play\ a\ simulation\ of\ rock,\ paper\ and\ scissors.\n\ \n\ Precondition\:\ any\n\ \n\ Postcondition\:\ The\ program\ will\ have\ stopped.\n
+comment5.params=
+comment5.target=void\ computerChooseObject()
+comment5.text=\n\ This\ method\ allows\ the\ program\ to\ randomly\ choose\ rock,\ paper\ \n\ or\ scissors.\ \n\ \n\ Precondition\:\ any\n\ \n\ Postcondition\:\ the\ computer\ will\ have\ chosen,\ at\ random,\ either\n\ rock,\ paper\ or\ scissors\ and\ stored\ it\ in\ the\ variable\n\ computerChoice.\n
+comment6.params=
+comment6.target=void\ getRandomNumber()
+comment6.text=\n\ This\ method\ allows\ the\ program\ to\ generate\ a\ random\ number,\ between\n\ and\ including\ 1-3.\ This\ integer\ allows\ the\ program\ to\ randomly\n\ choose\ rock,\ paper\ or\ scissors,\ to\ accurately\ represent\ real\ life\n\ scenario.\n\ \n\ Precondition\:\ any\n\ Postcondition\:\ a\ random\ value\ will\ have\ been\ assigned\ \n\ to\ randomNumber.\n
+numComments=7
